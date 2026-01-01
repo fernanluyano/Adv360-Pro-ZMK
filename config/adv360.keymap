@@ -21,15 +21,6 @@
         };
     };
 
-    macros {
-        vim_arrows: vim_arrows {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp>;
-            label = "VIM_ARROWS";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
